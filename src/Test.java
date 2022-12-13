@@ -4,6 +4,7 @@ public class Test {
         Animal animal1 = new Animal("Lion");
         //OVERLOAD METHOD
         animal1.animalSound();
-        animal1.animalSound(12);
+        animal1.animalSound("high");
+        animal1.animalSound("low");
     }
 }

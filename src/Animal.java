@@ -1,5 +1,5 @@
 public class Animal{
-    String animalName;
+    private String animalName;
 
     public Animal(String animalName){
         this.animalName=animalName;
@@ -7,10 +7,10 @@ public class Animal{
     public void animalSound(){
         System.out.println("Roarr!");
     }
-    public void animalSound(int intensity){
-        if (intensity>9){
+    public void animalSound(String intensity){
+        if (intensity=="high"){
             System.out.println("Roarrrrrrrr!");
-        }else if(intensity<4){
+        }else if(intensity=="low"){
             System.out.println("Roar");
         }else{
             System.out.println("Cannot reproduce it properly");
